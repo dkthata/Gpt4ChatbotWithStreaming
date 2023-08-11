@@ -53,15 +53,15 @@ export default function ChatComponent() {
             })}
 
             <form className="mt-12" onSubmit={handleSubmit}>
-                <p>User Message</p>
+                <p>質問(プロンプト)</p>
                 <textarea
                     className="mt-2 w-full bg-slate-600 p-2"
-                    placeholder={"What are data structures and algorithims?"}
+                    placeholder={"教育に生成AIを活用する方法?"}
                     value={input}
                     onChange={handleInputChange}
                 />
                 <button className="rounded-md bg-blue-600 p-2 mt-2">
-                    Send message
+                    送信ボタン
                 </button>
             </form>
         </div>
